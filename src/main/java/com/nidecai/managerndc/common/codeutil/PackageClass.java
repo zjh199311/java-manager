@@ -28,7 +28,6 @@ public class PackageClass {
             url = iterator.nextElement();
             if ("file".equals(url.getProtocol())) {
                 file = new File(url.getPath());
-//                System.out.println(file);
                 if (file.isDirectory()){
                     fls= file.listFiles();
                     for(File fl :fls) {

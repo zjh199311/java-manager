@@ -203,7 +203,7 @@ public class JedisClient {
 	 * 往list中添加数组
 	 * 
 	 * @param key
-	 * @param value
+	 * @param
 	 * @return
 	 */
 	public static void lpushAll(String key, List<String> values) {
@@ -223,7 +223,7 @@ public class JedisClient {
 	 * 往list中添加数组
 	 * 
 	 * @param key
-	 * @param value
+	 * @param
 	 * @return
 	 */
 	public static void lpushAll(String key, List<String> values, int seconds) {
